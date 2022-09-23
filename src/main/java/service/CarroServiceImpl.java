@@ -5,18 +5,20 @@ import model.Carro;
 public class CarroServiceImpl implements CarroService {
 
     @Override
-    public void acelerar(Carro carro, int velocidadeAMais) {
+    public void acelerar(Carro carro) {
+        double velocidadeAMais = carro.getCavalos() * (0.10);
         if(carro.isLigado()) {
-            carro.setVelocidadeAtual(carro.getVelocidadeAtual() + velocidadeAMais);
+            carro.setVelocidadeAtual((int) (carro.getVelocidadeAtual() + velocidadeAMais));
         }
     }
 
     @Override
-    public void frear(Carro carro, int velocidadeAMenos) {
+    public void frear(Carro carro) {
+        double velocidadeAMenos = carro.getCavalos() * (0.15);
         if(velocidadeAMenos >= carro.getVelocidadeAtual()) {
             carro.setVelocidadeAtual(0);
         } else {
-            carro.setVelocidadeAtual(carro.getVelocidadeAtual() - velocidadeAMenos);
+            carro.setVelocidadeAtual((int) (carro.getVelocidadeAtual() - velocidadeAMenos));
         }
     }
 
@@ -32,6 +34,9 @@ public class CarroServiceImpl implements CarroService {
 
     @Override
     public String estadoAtual(Carro carro) {
-        return carro.toString();
+        return "O carro está ligado: " +
+                carro.isLigado() +
+                " e a velocidade atual é: " +
+                carro.getVelocidadeAtual();
     }
 }

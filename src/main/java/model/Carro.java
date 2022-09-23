@@ -3,30 +3,28 @@ package model;
 import java.util.Objects;
 
 /**
- *
  * Um carro tem os seguintes atributos:
- *  - cor
- *  - marca
- *  - modelo
- *  - ano
- *  - ligado
- *  - velocidadeAtual
- *
- *  Enquanto o carro estiver desligado deve ser capaz de:
- *  - Ligar
- *  - Motrar estado atual
- *
+ * - cor
+ * - marca
+ * - modelo
+ * - ano
+ * - ligado
+ * - velocidadeAtual
+ * <p>
+ * Enquanto o carro estiver desligado deve ser capaz de:
+ * - Ligar
+ * - Motrar estado atual
+ * <p>
  * Enquanto o carro estiver ligado deve ser capaz de:
  * - Desligar
  * - Acelerar
  * - Frear
  * - Motrar estado atual
- *
+ * <p>
  * Regras:
  * - Só podemos realizar as ações com o carro ligado
  * - Só podemos desligar o carro quando ele parar (velocidadeAtual = 0)
  * - Não existe velocidade negativa
- *
  */
 
 public class Carro {
@@ -37,14 +35,17 @@ public class Carro {
     private String modelo;
     private boolean ligado;
     private int velocidadeAtual;
+    private int cavalos;
 
-    public Carro(String cor, String marca, String ano, String modelo) {
+
+    public Carro(String cor, String marca, String ano, String modelo, int cavalos) {
         this.cor = cor;
         this.marca = marca;
         this.ano = ano;
         this.modelo = modelo;
         this.ligado = false;
         this.velocidadeAtual = 0;
+        this.cavalos = cavalos;
     }
 
     public String getCor() {
@@ -79,6 +80,14 @@ public class Carro {
         this.modelo = modelo;
     }
 
+    public int getCavalos() {
+        return cavalos;
+    }
+
+    public void setCavalos(int cavalos) {
+        this.cavalos = cavalos;
+    }
+
     public boolean isLigado() {
         return ligado;
     }
@@ -110,9 +119,13 @@ public class Carro {
     @Override
     public boolean equals(Object o) {
         if (this == o) return true;
-        if (o == null || getClass() != o.getClass()) return false;
+        if (!(o instanceof Carro)) return false;
         Carro carro = (Carro) o;
-        return cor.equals(carro.cor) && marca.equals(carro.marca) && ano.equals(carro.ano) && modelo.equals(carro.modelo);
+        return
+                cor.equals(carro.cor) &&
+                        marca.equals(carro.marca) &&
+                        ano.equals(carro.ano) &&
+                        modelo.equals(carro.modelo);
     }
 
     @Override

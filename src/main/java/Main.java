@@ -20,7 +20,7 @@ import service.CarroServiceImpl;
  * - Desligar
  * - Acelerar
  * - Frear
- * - Mostrar estado atual
+ * - Motrar estado atual
  *
  * Regras:
  * - O carro não pode passar de sua velocidade máxima
@@ -31,18 +31,4 @@ import service.CarroServiceImpl;
  */
 
 public class Main {
-    public static void main(String[] args) {
-        CarroService carroService = new CarroServiceImpl();
-
-        //Given
-        Carro carro = new Carro("azul", "marca","ano","modelo");
-
-        //When
-        carroService.ligar(carro);
-        carroService.acelerar(carro, 10);
-
-
-
-    }
-
 }

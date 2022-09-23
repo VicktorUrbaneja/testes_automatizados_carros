@@ -5,11 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ad8c8f90-5707-4875-9dff-f4c37642530e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/builder/CarroBuilder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/builder/CarroProvider.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/model/Carro.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/Carro.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/service/CarroService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/service/CarroService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/service/CarroServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/service/CarroServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/service/CarroServiceImplTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/service/CarroServiceImplTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,7 +47,7 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="JUnit.CarroServiceImplTest.atividade">
+  <component name="RunManager" selected="JUnit.CarroServiceImplTest.testeDeveFrearCorretamente">
     <configuration name="CarroServiceImplTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="testes_automatizados_carros" />
       <extension name="coverage">
@@ -108,11 +111,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main.testeVelocidadeNaoPodeSerNegativa" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="CarroServiceImplTest.testeDeveFrearCorretamente" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="testes_automatizados_carros" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="Main" />
-      <option name="METHOD_NAME" value="testeVelocidadeNaoPodeSerNegativa" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="service" />
+      <option name="MAIN_CLASS_NAME" value="service.CarroServiceImplTest" />
+      <option name="METHOD_NAME" value="testeDeveFrearCorretamente" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -120,11 +129,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.CarroServiceImplTest.testeDeveFrearCorretamente" />
+        <item itemvalue="JUnit.CarroServiceImplTest" />
         <item itemvalue="JUnit.CarroServiceImplTest.atividade" />
         <item itemvalue="JUnit.CarroServiceImplTest.assertThat" />
         <item itemvalue="JUnit.CarroServiceImplTest.asserts" />
-        <item itemvalue="JUnit.CarroServiceImplTest" />
-        <item itemvalue="JUnit.Main.testeVelocidadeNaoPodeSerNegativa" />
       </list>
     </recent_temporary>
   </component>
@@ -149,5 +158,10 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/testes_automatizados_carros$CarroServiceImplTest.ic" NAME="CarroServiceImplTest Coverage Results" MODIFIED="1663885866633" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>service.*</FILTER>
+    </SUITE>
   </component>
 </project>
