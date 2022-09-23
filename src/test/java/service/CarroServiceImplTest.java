@@ -35,7 +35,7 @@ public class CarroServiceImplTest {
         carroService.acelerar(carro1);
 
         // Then
-        Assert.assertEquals(20, carro1.getVelocidadeAtual());
+        Assert.assertEquals(10, carro1.getVelocidadeAtual());
     }
 
     @Test
@@ -47,11 +47,10 @@ public class CarroServiceImplTest {
         // When
         carroService.ligar(carro1);
         carroService.acelerar(carro1);
-        System.out.println(carro1.getVelocidadeAtual());
         carroService.frear(carro1);
 
         // Then
-        System.out.println(carro1.getVelocidadeAtual());
+        Assert.assertEquals(0, carro1.getVelocidadeAtual());
     }
 
     @Test
@@ -114,7 +113,7 @@ public class CarroServiceImplTest {
         carroService.acelerar(carro1);
 
         // Then
-        Assert.assertEquals("O carro está ligado: true e a velocidade atual é: 100", carroService.estadoAtual(carro1));
+        Assert.assertEquals("O carro está ligado: true e a velocidade atual é: 10", carroService.estadoAtual(carro1));
     }
 
 
