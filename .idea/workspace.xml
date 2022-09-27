@@ -6,6 +6,9 @@
   <component name="ChangeListManager">
     <list default="true" id="ad8c8f90-5707-4875-9dff-f4c37642530e" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/service/CarroService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/service/CarroService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/service/CarroServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/service/CarroServiceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/service/CarroServiceImplTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/service/CarroServiceImplTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -35,13 +38,14 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "settings.editor.selected.configurable": "configurable.group.editor"
   }
-}</component>
-  <component name="RunManager" selected="JUnit.CarroServiceImplTest">
+}]]></component>
+  <component name="RunManager" selected="JUnit.CarroServiceImplTest.NaoPodeFrearNegativoException">
     <configuration name="CarroServiceImplTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="testes_automatizados_carros" />
       <extension name="coverage">
@@ -57,7 +61,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CarroServiceImplTest.deveRetornarOEstadoAtualCorretamente" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="CarroServiceImplTest.NaoPodeFrearNegativoException" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="testes_automatizados_carros" />
       <extension name="coverage">
         <pattern>
@@ -67,7 +71,39 @@
       </extension>
       <option name="PACKAGE_NAME" value="service" />
       <option name="MAIN_CLASS_NAME" value="service.CarroServiceImplTest" />
-      <option name="METHOD_NAME" value="deveRetornarOEstadoAtualCorretamente" />
+      <option name="METHOD_NAME" value="NaoPodeFrearNegativoException" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CarroServiceImplTest.NaoPodeFrearNegativoException_2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="testes_automatizados_carros" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="service" />
+      <option name="MAIN_CLASS_NAME" value="service.CarroServiceImplTest" />
+      <option name="METHOD_NAME" value="NaoPodeFrearNegativoException_2" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CarroServiceImplTest.NaoPodeFrearNegativoException_3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="testes_automatizados_carros" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="service" />
+      <option name="MAIN_CLASS_NAME" value="service.CarroServiceImplTest" />
+      <option name="METHOD_NAME" value="NaoPodeFrearNegativoException_3" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -89,45 +125,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CarroServiceImplTest.testeDeveFrearCorretamente" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="testes_automatizados_carros" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="service.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="service" />
-      <option name="MAIN_CLASS_NAME" value="service.CarroServiceImplTest" />
-      <option name="METHOD_NAME" value="testeDeveFrearCorretamente" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CarroServiceImplTest.testeVelocidadeNaoPodeSerNegativa" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="testes_automatizados_carros" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="service.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="service" />
-      <option name="MAIN_CLASS_NAME" value="service.CarroServiceImplTest" />
-      <option name="METHOD_NAME" value="testeVelocidadeNaoPodeSerNegativa" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.CarroServiceImplTest.NaoPodeFrearNegativoException" />
+        <item itemvalue="JUnit.CarroServiceImplTest.NaoPodeFrearNegativoException_2" />
+        <item itemvalue="JUnit.CarroServiceImplTest.NaoPodeFrearNegativoException_3" />
         <item itemvalue="JUnit.CarroServiceImplTest" />
-        <item itemvalue="JUnit.CarroServiceImplTest.deveRetornarOEstadoAtualCorretamente" />
-        <item itemvalue="JUnit.CarroServiceImplTest.testeVelocidadeNaoPodeSerNegativa" />
         <item itemvalue="JUnit.CarroServiceImplTest.testeDeveAcelerarCorretamente" />
-        <item itemvalue="JUnit.CarroServiceImplTest.testeDeveFrearCorretamente" />
       </list>
     </recent_temporary>
   </component>
@@ -154,7 +158,7 @@
     </option>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/testes_automatizados_carros$CarroServiceImplTest.ic" NAME="CarroServiceImplTest Coverage Results" MODIFIED="1663895563609" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+    <SUITE FILE_PATH="coverage/testes_automatizados_carros$CarroServiceImplTest.ic" NAME="CarroServiceImplTest Coverage Results" MODIFIED="1663895764705" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>service.*</FILTER>
     </SUITE>
   </component>
