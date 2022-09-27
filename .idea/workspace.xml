@@ -6,9 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="ad8c8f90-5707-4875-9dff-f4c37642530e" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/service/CarroService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/service/CarroService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/service/CarroServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/service/CarroServiceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/service/CarroServiceImplTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/service/CarroServiceImplTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -45,7 +42,7 @@
     "settings.editor.selected.configurable": "configurable.group.editor"
   }
 }]]></component>
-  <component name="RunManager" selected="JUnit.CarroServiceImplTest.NaoPodeFrearNegativoException">
+  <component name="RunManager" selected="JUnit.CarroServiceImplTest.NaoPodeFrearNegativoException_3">
     <configuration name="CarroServiceImplTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="testes_automatizados_carros" />
       <extension name="coverage">
@@ -127,9 +124,9 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.CarroServiceImplTest.NaoPodeFrearNegativoException" />
-        <item itemvalue="JUnit.CarroServiceImplTest.NaoPodeFrearNegativoException_2" />
         <item itemvalue="JUnit.CarroServiceImplTest.NaoPodeFrearNegativoException_3" />
+        <item itemvalue="JUnit.CarroServiceImplTest.NaoPodeFrearNegativoException_2" />
+        <item itemvalue="JUnit.CarroServiceImplTest.NaoPodeFrearNegativoException" />
         <item itemvalue="JUnit.CarroServiceImplTest" />
         <item itemvalue="JUnit.CarroServiceImplTest.testeDeveAcelerarCorretamente" />
       </list>

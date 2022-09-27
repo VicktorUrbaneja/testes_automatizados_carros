@@ -18,7 +18,7 @@ public class CarroServiceImpl implements CarroService {
     @Override
     public void frear(Carro carro, int velocidadeAMenos) throws Exception {
         if(velocidadeAMenos <= 0) {
-            throw new Exception("A velocidade deve ser maior que zero");
+            throw new Exception("A velocidade não pode ser menor que zero");
         }
         if(carro.isLigado()) {
             carro.setVelocidadeAtual(carro.getVelocidadeAtual() + velocidadeAMenos);

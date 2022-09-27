@@ -187,10 +187,10 @@ public class CarroServiceImplTest {
         Carro carro = CarroProvider.get();
         try {
             carroService.frear(carro, -10);
-            Assert.fail("A velocidade deve ser maior que zero");
+            Assert.fail("Deveria lançar Exception");
 
         }catch (Exception e){
-            Assert.assertThat(e.getMessage(), is("A velocidade deve ser maior que zero"));
+            Assert.assertThat(e.getMessage(), is("A velocidade não pode ser menor que zero"));
         }
 
     }
@@ -212,9 +212,10 @@ public class CarroServiceImplTest {
         Carro carro = CarroProvider.get();
 
         expectedException3.expect(Exception.class);
-        expectedException3.expectMessage("A velocidade deve ser maior que zero");
+        expectedException3.expectMessage("A velocidade não pode ser menor que zero");
 
         carroService.frear(carro, -10);
     }
+
 
 }
